@@ -38,5 +38,6 @@ input {
     .my-form-wrapper {
         width: 95% !important;
         margin: auto !important;
+        margin-top: 2.5rem !important;
     }
 }
