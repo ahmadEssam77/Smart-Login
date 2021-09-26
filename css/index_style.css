@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #24353F;
+}
+
+.my-form-wrapper {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.my-form-wrapper h1 {
+    color: #17A2B8;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+    background-color: #0dcaf0 !important;
+    border-color: #0dcaf0 !important;
+}
+
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.my-form-wrapper p a:hover {
+    text-decoration: underline !important;
+}
+
+/* input::placeholder {
+    color: blue;
+}
+
+input-placeholder,
+:-ms-input-placeholder,
+::-webkit-input-placeholder,
+::-moz-input-placeholder {
+    color: red !important;
+} */

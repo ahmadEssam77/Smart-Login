@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+
+.bg-myColorNav {
+    background-color: #24353F !important;
+}
+
+.shadow {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0)!important;
+}
+
+.container {
+    width: 70% !important;
+    margin: auto !important;
+}
+
+main {
+    height: 80vh;
+}
+
+main div {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    padding: 3rem 7rem;
+    /* max-width: 800px; */
+}
+
+main h1 {
+    color: #17A2B8;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 98% !important;
+        margin: auto !important;
+    }
+}
