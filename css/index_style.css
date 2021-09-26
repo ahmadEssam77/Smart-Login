@@ -34,13 +34,9 @@ input {
     text-decoration: underline !important;
 }
 
-/* input::placeholder {
-    color: blue;
+@media screen and (max-width: 600px) {
+    .my-form-wrapper {
+        width: 95% !important;
+        margin: auto !important;
+    }
 }
-
-input-placeholder,
-:-ms-input-placeholder,
-::-webkit-input-placeholder,
-::-moz-input-placeholder {
-    color: red !important;
-} */
